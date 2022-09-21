@@ -35,4 +35,33 @@ The project utilizes the following modules:
   * **apispec** - API specification generator that supports the OpenAPI specification
 * **pytest**: framework for testing Python projects
 
+## Project set up
 
+#### Create clone:
+```
+ $ git clone https://github.com/vladislin/flask-journal-api.git .
+ $ cd flask-journal-api
+```
+
+#### Create a virtual environment and activate it:
+```
+ $ python3 -m venv venv
+ 
+ # linux
+ $ source venv/bin/activate
+ 
+ # windows
+ $ venv\Scripts\activate
+```
+
+#### Install all dependencies from the requirements.txt file:
+```
+ $ pip install -r requirements.txt
+```
+
+#### Start the development server:
+```
+ $ flask run
+```
+
+#### Navigate to http://127.0.0.1:5000/docs#/ to see the API documentation:
